@@ -8,26 +8,28 @@ This repository contains hands-on JavaScript code examples for learning and prac
   Entry point with a simple console log.
 
 - **JavaScriptOperators/**  
-  - `Operators.js`: Examples of JavaScript operators, including arithmetic and comparison.
+  - `Operators.js`: Examples of JavaScript operators, including arithmetic, comparison, logical, assignment, and other common operators.
 
 - **JavaScriptVariables/**  
-  - `Variables.js`: Demonstrates variable declarations using `var`, `let`, and `const`, and explains their scope and redeclaration rules.
+  - `Variables.js`: Demonstrates variable declarations using `var`, `let`, and `const`, and explains their scope, redeclaration, and reassignment rules.
   - `DataTypes.js`: Shows primitive data types in JavaScript and how to check their types.
   - `ConstObject.js`: Explains how `const` works with objects—properties can be changed or added, but the object reference cannot be reassigned.
 
 - **JavaScriptObjects/**  
-  - `JavaScriptObjects.js`: Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, and defining methods.
+  - `JavaScriptObjects.js`: Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, defining methods, and iterating over object properties.
 
 ## Topics Covered
 
 - Variable declarations (`var`, `let`, `const`)
 - Variable scope (block, global)
 - Redeclaration and reassignment rules
-- Primitive data types (`string`, `number`, `boolean`, `null`, `undefined`)
-- Operators (arithmetic, equality, strict equality)
+- Primitive data types (`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`)
+- Operators (arithmetic, comparison, logical, assignment, strict equality, etc.)
 - Working with constant objects (`const` with objects)
 - Creating and manipulating JavaScript objects
 - Object methods and property access
+- Object constructors and prototypes
+- Iterating over object properties
 
 ## How to Run
 
@@ -36,4 +38,4 @@ This repository contains hands-on JavaScript code examples for learning and prac
    ```sh
    node JavaScriptObjects/JavaScriptObjects.js
    ```
-   Replace the path with the file you want to run.
+   Replace the path with the file you

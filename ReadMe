@@ -15,6 +15,9 @@ This repository contains hands-on JavaScript code examples for learning and prac
   - `DataTypes.js`: Shows primitive data types in JavaScript and how to check their types.
   - `ConstObject.js`: Explains how `const` works with objects—properties can be changed or added, but the object reference cannot be reassigned.
 
+- **JavaScriptObjects/**  
+  - `JavaScriptObjects.js`: Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, and defining methods.
+
 ## Topics Covered
 
 - Variable declarations (`var`, `let`, `const`)
@@ -23,12 +26,14 @@ This repository contains hands-on JavaScript code examples for learning and prac
 - Primitive data types (`string`, `number`, `boolean`, `null`, `undefined`)
 - Operators (arithmetic, equality, strict equality)
 - Working with constant objects (`const` with objects)
+- Creating and manipulating JavaScript objects
+- Object methods and property access
 
 ## How to Run
 
 1. Open any `.js` file in your favorite editor (e.g., VS Code).
 2. Run the file using Node.js:
    ```sh
-   node JavaScriptVariables/ConstObject.js
+   node JavaScriptObjects/JavaScriptObjects.js
    ```
    Replace the path with the file you want to run.

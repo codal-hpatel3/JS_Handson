@@ -29,3 +29,65 @@ anotherCar.model = 'Civic';
 anotherCar.year = 2021; // Adding another property
 anotherCar['color'] = 'Blue'; // Adding a property using bracket notation
 console.log(anotherCar); // Output: { make: 'Honda', model: 'Civic', year: 2021 }
+
+// Object methods are function definitions stored as property values
+
+const personWithMethods = {
+    name: 'Bob',    
+    age: 25,
+    fullName: function() { // Method to greet the person
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+};
+// Calling the method       
+personWithMethods.fullName(); // Output: Hello, my name is Bob and I am 25 years old.
+
+// We can also use arrow functions as methods in objects
+const anotherPerson = { 
+    name: 'Charlie',
+    age: 28,
+    greet: () => { // Arrow function as a method
+        console.log(`Hi, I'm ${anotherPerson.name} and I'm ${anotherPerson.age} years old.`);
+    }
+};
+// Calling the arrow function method
+anotherPerson.greet(); // Output: Hi, I'm Charlie and I'm 28 years old.
+
+// Objects can also contain nested objects
+const student = {
+    name: 'David',
+    age: 22,
+    address: {
+        street: '123 Main St',
+        city: 'Los Angeles',
+        zip: '90001'
+    }
+};
+// Accessing nested object properties
+console.log(student.address.city); // Output: Los Angeles
+// We can also use the `Object.keys()` method to get an array of the object's keys
+const keys = Object.keys(student);  
+console.log(keys); // Output: ['name', 'age', 'address']
+// We can also use the `Object.values()` method to get an array of the object's values
+const values = Object.values(student);
+console.log(values); // Output: ['David', 22, { street: '123 Main St', city: 'Los Angeles', zip: '90001' }]
+// We can also use the `Object.entries()` method to get an array of the object's key-value pairs
+const entries = Object.entries(student);
+console.log(entries); // Output: [['name', 'David'], ['age', 22], ['address', { street: '123 Main St', city: 'Los Angeles', zip: '90001' }]]
+
+// Now we can use new Person() to create many new Person objects:
+
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+// We can access the properties of these objects just like we did with the `car` object
+console.log(myFather.firstName); // Output: John
+console.log(myMother.lastName); // Output: Rally
+console.log(myFather.age); // Output: 50
+console.log(myMother.eyeColor); // Output: green

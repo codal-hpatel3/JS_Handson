@@ -13,6 +13,7 @@ This repository contains hands-on JavaScript code examples for learning and prac
 - **JavaScriptVariables/**  
   - `Variables.js`: Demonstrates variable declarations using `var`, `let`, and `const`, and explains their scope and redeclaration rules.
   - `DataTypes.js`: Shows primitive data types in JavaScript and how to check their types.
+  - `ConstObject.js`: Explains how `const` works with objects—properties can be changed or added, but the object reference cannot be reassigned.
 
 ## Topics Covered
 
@@ -21,12 +22,13 @@ This repository contains hands-on JavaScript code examples for learning and prac
 - Redeclaration and reassignment rules
 - Primitive data types (`string`, `number`, `boolean`, `null`, `undefined`)
 - Operators (arithmetic, equality, strict equality)
+- Working with constant objects (`const` with objects)
 
 ## How to Run
 
 1. Open any `.js` file in your favorite editor (e.g., VS Code).
 2. Run the file using Node.js:
    ```sh
-   node JavaScriptVariables/Variables.js
+   node JavaScriptVariables/ConstObject.js
    ```
    Replace the path with the file you want to run.

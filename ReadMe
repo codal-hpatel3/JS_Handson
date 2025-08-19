@@ -1,0 +1,32 @@
+# JavaScript Learning Code
+
+This repository contains hands-on JavaScript code examples for learning and practicing core JavaScript concepts.
+
+## Folder Structure
+
+- **JavaScript.js**  
+  Entry point with a simple console log.
+
+- **JavaScriptOperators/**  
+  - `Operators.js`: Examples of JavaScript operators, including arithmetic and comparison.
+
+- **JavaScriptVariables/**  
+  - `Variables.js`: Demonstrates variable declarations using `var`, `let`, and `const`, and explains their scope and redeclaration rules.
+  - `DataTypes.js`: Shows primitive data types in JavaScript and how to check their types.
+
+## Topics Covered
+
+- Variable declarations (`var`, `let`, `const`)
+- Variable scope (block, global)
+- Redeclaration and reassignment rules
+- Primitive data types (`string`, `number`, `boolean`, `null`, `undefined`)
+- Operators (arithmetic, equality, strict equality)
+
+## How to Run
+
+1. Open any `.js` file in your favorite editor (e.g., VS Code).
+2. Run the file using Node.js:
+   ```sh
+   node JavaScriptVariables/Variables.js
+   ```
+   Replace the path with the file you want to run.

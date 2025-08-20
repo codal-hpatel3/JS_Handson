@@ -40,6 +40,15 @@ This project contains hands-on JavaScript code examples to help you learn and pr
   - `JsAsyncAwait.js`  
     Demonstrates the use of async/await in JavaScript, including easy examples and comparisons with callbacks and promises.
 
+- **JavaScriptClass/**
+  - `ClassBasics.js`  
+    Introduces ES6 classes, class declarations, and basic usage.
+  - `Inheritance.js`  
+    Demonstrates class inheritance using `extends` and `super`.
+  - `StaticMethods.js`  
+    Shows how to use static methods and properties in classes.
+  - *(Add more files as needed for advanced class topics)*
+
 ---
 
 ## 📚 Topics Covered
@@ -57,6 +66,7 @@ This project contains hands-on JavaScript code examples to help you learn and pr
 - Arrays: creation, access, iteration, and common methods
 - Error handling with `try...catch`
 - Asynchronous JavaScript: callbacks, promises, async/await
+- **ES6 Classes:** class syntax, inheritance, static methods, and more
 
 ---
 
@@ -69,8 +79,6 @@ This project contains hands-on JavaScript code examples to help you learn and pr
    ```
    For example:
    ```sh
-   node JavaScriptArrays/Arrays.js
+   node JavaScriptClass/ClassBasics.js
    ```
-   Replace the path with the file you want to run.
-
----
+   Replace the path with the file you

@@ -1,84 +1,119 @@
-# JavaScript Learning Code
+🚀 JavaScript Learning Code
 
-Welcome to the **JavaScript Learning Code** repository!  
-This project contains hands-on JavaScript code examples to help you learn and practice core JavaScript concepts.
+Welcome to the JavaScript Learning Code repository! 🎉
+This repo is full of simple, hands-on examples to help you learn JavaScript step by step.
 
----
+📂 Project Structure
 
-## 📁 Folder Structure
+JavaScript.js → First “Hello JavaScript” log.
 
-- **JavaScript.js**  
-  Entry point with a simple console log.
+🔢 Operators
 
-- **JavaScriptOperators/**
-  - `Operators.js`  
-    Examples of JavaScript operators: arithmetic, comparison, logical, assignment, and more.
+Operators.js → Learn arithmetic (+, -, *), comparison (==, ===), logical (&&, ||, !), and assignment (=, +=, -=) operators.
 
-- **JavaScriptVariables/**
-  - `Variables.js`  
-    Demonstrates variable declarations using `var`, `let`, and `const`, including scope, redeclaration, and reassignment.
-  - `DataTypes.js`  
-    Shows primitive data types in JavaScript and how to check their types.
-  - `ConstObject.js`  
-    Explains how `const` works with objects—properties can be changed or added, but the object reference cannot be reassigned.
+📦 Variables & Data Types
 
-- **JavaScriptObjects/**
-  - `JavaScriptObjects.js`  
-    Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, defining methods, and iterating over object properties.
+Variables.js → Using var, let, and const, with scope and reassignment rules.
 
-- **JavaScriptArrays/**
-  - `Arrays.js`  
-    Covers array creation, access, and basic operations.
-  - `ArrayMethods.js`  
-    Demonstrates common array methods such as `push`, `pop`, `shift`, `unshift`, `map`, `filter`, `reduce`, and more.
+DataTypes.js → Primitive types (string, number, boolean, null, undefined, symbol, bigint).
 
-- **JavaScriptErrors/**
-  - `TryCatchInJavaScript.js`  
-    Shows how to handle errors in JavaScript using `try...catch` with clear, easy-to-understand examples.
+ConstObject.js → const objects can change properties but not be reassigned.
 
-- **JavaScriptAsyncAwait/**
-  - `JsAsyncAwait.js`  
-    Demonstrates the use of async/await in JavaScript, including easy examples and comparisons with callbacks and promises.
+🧑‍💻 Objects
 
-- **JavaScriptClass/**
-  - `ClassBasics.js`  
-    Introduces ES6 classes, class declarations, and basic usage.
-  - `Inheritance.js`  
-    Demonstrates class inheritance using `extends` and `super`.
-  - `StaticMethods.js`  
-    Shows how to use static methods and properties in classes.
-  - *(Add more files as needed for advanced class topics)*
+JavaScriptObjects.js → Create objects, add/access properties, constructors, methods, and loops over object properties.
 
----
+📊 Arrays
 
-## 📚 Topics Covered
+Arrays.js → Basics of creating and using arrays.
 
-- Variable declarations: `var`, `let`, `const`
-- Variable scope: block, global
-- Redeclaration and reassignment rules
-- Primitive data types: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`
-- Operators: arithmetic, comparison, logical, assignment, strict equality, etc.
-- Working with constant objects (`const` with objects)
-- Creating and manipulating JavaScript objects
-- Object methods and property access
-- Object constructors and prototypes
-- Iterating over object properties
-- Arrays: creation, access, iteration, and common methods
-- Error handling with `try...catch`
-- Asynchronous JavaScript: callbacks, promises, async/await
-- **ES6 Classes:** class syntax, inheritance, static methods, and more
+ArrayMethods.js → Common methods like push, pop, shift, unshift, map, filter, reduce.
 
----
+⚠️ Error Handling
 
-## ▶️ How to Run the Code
+TryCatchInJavaScript.js → Handle errors with try...catch.
 
-1. **Open any `.js` file** in your favorite editor (e.g., VS Code).
-2. **Run the file using Node.js** in your terminal:
-   ```sh
-   node path/to/your/file.js
-   ```
-   For example:
-   ```sh
-   node JavaScriptClass/ClassBasics.js
-   ```
-   Replace the path with the file you
+⏳ Asynchronous JavaScript
+
+JsAsyncAwait.js → Learn callbacks, promises, and async/await with simple examples.
+
+🏗️ ES6 Classes
+
+ClassBasics.js → Basic class syntax.
+
+Inheritance.js → Extend classes with extends and super.
+
+StaticMethods.js → Static properties and methods.
+
+📚 Topics Covered
+
+✔ Variables: var, let, const
+✔ Scope (block vs global)
+✔ Redeclaration & reassignment
+✔ Primitive data types
+✔ Operators (arithmetic, logical, comparison)
+✔ Objects: properties, methods, prototypes
+✔ Arrays: creation & common methods
+✔ Error handling (try...catch)
+✔ Async JavaScript: callbacks, promises, async/await
+✔ ES6 Classes: basics, inheritance, static methods
+
+🖥️ Quick Examples
+Variables
+let name = "Himen";
+const age = 25;
+var city = "Ahmedabad";
+
+Arrays
+let numbers = [1, 2, 3];
+numbers.push(4); // [1,2,3,4]
+
+Objects
+let user = { name: "Himen", age: 25 };
+console.log(user.name); // Himen
+
+Promise + Async/Await
+function greet() {
+  return new Promise(resolve => {
+    setTimeout(() => resolve("Hello!"), 1000);
+  });
+}
+
+async function showGreeting() {
+  let message = await greet();
+  console.log(message);
+}
+
+showGreeting(); // "Hello!" after 1s
+
+Class Example
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    console.log(`${this.name} barks.`);
+  }
+}
+
+let dog = new Dog("Tommy");
+dog.speak(); // Tommy barks.
+
+▶️ How to Run
+
+Install Node.js.
+
+Open terminal and run:
+
+node path/to/file.js
+
+
+Example:
+
+node JavaScriptClass/ClassBasics.js

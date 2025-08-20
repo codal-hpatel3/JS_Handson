@@ -26,9 +26,19 @@ This project contains hands-on JavaScript code examples to help you learn and pr
   - `JavaScriptObjects.js`  
     Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, defining methods, and iterating over object properties.
 
+- **JavaScriptArrays/**
+  - `Arrays.js`  
+    Covers array creation, access, and basic operations.
+  - `ArrayMethods.js`  
+    Demonstrates common array methods such as `push`, `pop`, `shift`, `unshift`, `map`, `filter`, `reduce`, and more.
+
 - **JavaScriptErrors/**
   - `TryCatchInJavaScript.js`  
     Shows how to handle errors in JavaScript using `try...catch` with clear, easy-to-understand examples.
+
+- **JavaScriptAsyncAwait/**
+  - `JsAsyncAwait.js`  
+    Demonstrates the use of async/await in JavaScript, including easy examples and comparisons with callbacks and promises.
 
 ---
 
@@ -44,7 +54,9 @@ This project contains hands-on JavaScript code examples to help you learn and pr
 - Object methods and property access
 - Object constructors and prototypes
 - Iterating over object properties
+- Arrays: creation, access, iteration, and common methods
 - Error handling with `try...catch`
+- Asynchronous JavaScript: callbacks, promises, async/await
 
 ---
 
@@ -57,7 +69,7 @@ This project contains hands-on JavaScript code examples to help you learn and pr
    ```
    For example:
    ```sh
-   node JavaScriptObjects/JavaScriptObjects.js
+   node JavaScriptArrays/Arrays.js
    ```
    Replace the path with the file you want to run.
 

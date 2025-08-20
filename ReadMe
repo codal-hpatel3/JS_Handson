@@ -1,41 +1,64 @@
 # JavaScript Learning Code
 
-This repository contains hands-on JavaScript code examples for learning and practicing core JavaScript concepts.
+Welcome to the **JavaScript Learning Code** repository!  
+This project contains hands-on JavaScript code examples to help you learn and practice core JavaScript concepts.
 
-## Folder Structure
+---
+
+## 📁 Folder Structure
 
 - **JavaScript.js**  
   Entry point with a simple console log.
 
-- **JavaScriptOperators/**  
-  - `Operators.js`: Examples of JavaScript operators, including arithmetic, comparison, logical, assignment, and other common operators.
+- **JavaScriptOperators/**
+  - `Operators.js`  
+    Examples of JavaScript operators: arithmetic, comparison, logical, assignment, and more.
 
-- **JavaScriptVariables/**  
-  - `Variables.js`: Demonstrates variable declarations using `var`, `let`, and `const`, and explains their scope, redeclaration, and reassignment rules.
-  - `DataTypes.js`: Shows primitive data types in JavaScript and how to check their types.
-  - `ConstObject.js`: Explains how `const` works with objects—properties can be changed or added, but the object reference cannot be reassigned.
+- **JavaScriptVariables/**
+  - `Variables.js`  
+    Demonstrates variable declarations using `var`, `let`, and `const`, including scope, redeclaration, and reassignment.
+  - `DataTypes.js`  
+    Shows primitive data types in JavaScript and how to check their types.
+  - `ConstObject.js`  
+    Explains how `const` works with objects—properties can be changed or added, but the object reference cannot be reassigned.
 
-- **JavaScriptObjects/**  
-  - `JavaScriptObjects.js`: Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, defining methods, and iterating over object properties.
+- **JavaScriptObjects/**
+  - `JavaScriptObjects.js`  
+    Demonstrates how to create and use JavaScript objects, including property access, adding properties, using constructors, defining methods, and iterating over object properties.
 
-## Topics Covered
+- **JavaScriptErrors/**
+  - `TryCatchInJavaScript.js`  
+    Shows how to handle errors in JavaScript using `try...catch` with clear, easy-to-understand examples.
 
-- Variable declarations (`var`, `let`, `const`)
-- Variable scope (block, global)
+---
+
+## 📚 Topics Covered
+
+- Variable declarations: `var`, `let`, `const`
+- Variable scope: block, global
 - Redeclaration and reassignment rules
-- Primitive data types (`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`)
-- Operators (arithmetic, comparison, logical, assignment, strict equality, etc.)
+- Primitive data types: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`
+- Operators: arithmetic, comparison, logical, assignment, strict equality, etc.
 - Working with constant objects (`const` with objects)
 - Creating and manipulating JavaScript objects
 - Object methods and property access
 - Object constructors and prototypes
 - Iterating over object properties
+- Error handling with `try...catch`
 
-## How to Run
+---
 
-1. Open any `.js` file in your favorite editor (e.g., VS Code).
-2. Run the file using Node.js:
+## ▶️ How to Run the Code
+
+1. **Open any `.js` file** in your favorite editor (e.g., VS Code).
+2. **Run the file using Node.js** in your terminal:
+   ```sh
+   node path/to/your/file.js
+   ```
+   For example:
    ```sh
    node JavaScriptObjects/JavaScriptObjects.js
    ```
-   Replace the path with the file you
+   Replace the path with the file you want to run.
+
+---

@@ -1,7 +1,3 @@
-Perfect 👍 Adding a **📌 Table of Contents** will make your README more professional and super easy to navigate on GitHub.
-Here’s the fully updated version with clickable links to all sections:
-
-```markdown
 # 📘 JavaScript_Learning_Code
 
 Welcome to **JavaScript_Learning_Code**!  

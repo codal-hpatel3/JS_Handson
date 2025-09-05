@@ -1,8 +1,38 @@
+Perfect 👍 Adding a **📌 Table of Contents** will make your README more professional and super easy to navigate on GitHub.
+Here’s the fully updated version with clickable links to all sections:
+
+```markdown
 # 📘 JavaScript_Learning_Code
 
 Welcome to **JavaScript_Learning_Code**!  
 This repository provides practical JavaScript examples covering **fundamentals, ES6 concepts, async programming, and error handling**.  
 All examples are organized into topic-based directories for easy navigation.
+
+---
+
+## 📌 Table of Contents
+
+- [📂 Directory Structure](#-directory-structure)
+- [📑 File Descriptions](#-file-descriptions)
+  - [JavaScript.js](#javascriptjs)
+  - [JavaScriptOperators/Operators.js](#javascriptoperatorsoperatorsjs)
+  - [JavaScriptVariables](#javascriptvariables)
+    - [Variables.js](#javascriptvariablesvariablesjs)
+    - [DataTypes.js](#javascriptvariablesdatatypesjs)
+    - [ConstObject.js](#javascriptvariablesconstobjectjs)
+  - [JavaScriptObjects/JavaScriptObjects.js](#javascriptobjectsjavascriptobjectsjs)
+  - [JavaScriptArrays](#javascriptarrays)
+    - [Arrays.js](#javascriptarraysarraysjs)
+    - [ArrayMethods.js](#javascriptarraysarraymethodsjs)
+  - [JavaScriptErrors/TryCatchInJavaScript.js](#javascripterrorstrycatchinjavascriptjs)
+  - [JavaScriptAsyncAwait/JsAsyncAwait.js](#javascriptasyncawaitjsasyncawaitjs)
+  - [JavaScriptClass](#javascriptclass)
+    - [ClassBasics.js](#javascriptclassclassbasicsjs)
+    - [Inheritance.js](#javascriptclassinheritancejs)
+    - [StaticMethods.js](#javascriptclassstaticmethodsjs)
+- [▶️ Getting Started](#️-getting-started)
+- [🖥️ Quick Examples](#️-quick-examples)
+- [🎯 Goal of This Repo](#-goal-of-this-repo)
 
 ---
 
@@ -192,10 +222,3 @@ The aim of this repo is to **simplify JavaScript learning** with clear, hands-on
 Perfect for beginners and quick refreshers alike. 🚀
 
 ---
-
-💡 *Contributions and feedback are welcome!* 🙌
-
-```
-
-Do you want me to also add a **📌 Table of Contents with anchor links** (like `#variables`, `#arrays`) so it’s easier to jump to sections on GitHub?
-```
